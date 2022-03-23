@@ -1,0 +1,11 @@
+_schema-version: "3.2"
+ID: weather-app
+version: 0.0.1
+
+modules:
+  - name: weather-app
+    type: nodejs
+    path: 'app'
+    build-parameters:
+      buildpack: nodejs_buildpack
+      memory: 512M
